@@ -1,0 +1,44 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.left-section, .right-section {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.left-section {
+  flex: 0.6;
+  background-color: #f0f0f0;
+}
+
+.right-section {
+  flex: 0.4;
+  background-color: #e0e0e0;
+}
+
+.image-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-buttons button {
+  margin: 5px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.image-buttons button img {
+  width: 120px; 
+  height: auto;
+}
